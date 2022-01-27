@@ -1,0 +1,30 @@
+{
+  "name": "api-gerenciarescola",
+  "version": "1.0.0",
+  "description": "Api de gerenciamento de uma escola",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloves-Jose/api-GerenciarEscola.git"
+  },
+  "author": "Cloves José Duarte Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cloves-Jose/api-GerenciarEscola/issues"
+  },
+  "homepage": "https://github.com/Cloves-Jose/api-GerenciarEscola#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
