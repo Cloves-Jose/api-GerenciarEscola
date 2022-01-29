@@ -1,0 +1,11 @@
+{
+    "mysql": {
+        "database": "api_escola",
+        "user": "root",
+        "password": "",
+        "host": "127.0.0.1"
+    },
+    "api": {
+        "port": 3000
+    }
+}
